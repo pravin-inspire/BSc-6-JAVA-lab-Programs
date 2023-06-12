@@ -1,2 +1,23 @@
-# BSc 6 JAVA lab Programs
- Praveen Hanchinal
+PROGRAM LIST
+
+Write Java Application Programs for the following:
+1. Find the factorial of N numbers using command line argument.
+2. Display the N Prime numbers using command line argument.
+3. Demonstrate String Operations.
+4. Demonstrate Multithreading.
+5. Demonstrate Exception Handling.
+6. Demonstrate user defined package program.
+7. Demonstrate Method overloading.
+8. Demonstrate Constructor overloading.
+
+Write Java Applet Programs for the following:
+9. Display Geometrical Figures using objects.
+10. Display a human face.
+11. Illustrate Scroll bar object.
+12. Change the background color of the applet randomly.
+13. Display Hello World and change the foreground color randomly.
+14. Implement Digital Clock.
+15. Implement Mouse event.
+
+P1, P2.... are official Programs
+UP1, UP2,.... are unofficial Programs (Practice Programs)
