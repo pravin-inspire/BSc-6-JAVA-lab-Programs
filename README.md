@@ -1,3 +1,5 @@
+Click on viewcode to see programs.
+
 Instructions to use repository:
 P1, P2.... are official Programs
 UP1, UP2,.... are unofficial Programs (Practice Programs)
