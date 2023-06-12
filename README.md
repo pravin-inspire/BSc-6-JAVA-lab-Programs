@@ -19,5 +19,6 @@ Write Java Applet Programs for the following:
 14. Implement Digital Clock.
 15. Implement Mouse event.
 
+Instructions to use repository:
 P1, P2.... are official Programs
 UP1, UP2,.... are unofficial Programs (Practice Programs)
