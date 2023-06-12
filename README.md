@@ -23,5 +23,5 @@ Write Java Applet Programs for the following:
 12. Change the background color of the applet randomly.
 13. Display Hello World and change the foreground color randomly.
 14. Implement Digital Clock.
-15. Implement Mouse event.
+15. Implement Mouse Event.
 
