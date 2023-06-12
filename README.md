@@ -1,4 +1,8 @@
-PROGRAM LIST
+Instructions to use repository:
+P1, P2.... are official Programs
+UP1, UP2,.... are unofficial Programs (Practice Programs)
+
+PROGRAM LIST:
 
 Write Java Application Programs for the following:
 1. Find the factorial of N numbers using command line argument.
@@ -19,6 +23,3 @@ Write Java Applet Programs for the following:
 14. Implement Digital Clock.
 15. Implement Mouse event.
 
-Instructions to use repository:
-P1, P2.... are official Programs
-UP1, UP2,.... are unofficial Programs (Practice Programs)
