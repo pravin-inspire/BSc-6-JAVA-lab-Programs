@@ -2,32 +2,68 @@
 //Author:
 //Date:
 
-//create a folder named "package"
-//place classA.java inside package and just compile it
-//save packageTest1.java outside of "package" folder
-//compile packageTest1 outside of "package" folder
-//run packageTest1
+//--------------------------------ClassA.java-----------------------------------------
 
 package package1;
-
 public class classA
 {
 	public void displayA()
 	{
-		System.out.println("class A of package1");
+		System.out.println("You are in classA of package1")
 	}
-}//classA
+}//end of classA
 
-//----------------------------------------------------------//
+
+
+//--------------------------------ClassB.java-----------------------------------------
+
+package package1;
+public class classB
+{
+	public void displayB()
+	{
+		System.out.println("You are in classB of package1")
+	}
+}//end of classB
+
+
+//-------------------------------TestPackage.java---------------------------------------
+
 
 import package1.classA; //importing classA of package1
+import package1.classB; //importing classB of package1
 
-class packageTest1
+class TestPackage
 {
 	public static void main(String args[])
 	{
 		classA objectA=new classA(); //objectA is object of classA
 		objectA.displayA(); //calling object of classA
 
+		classB objectB=new classB(); //objectB is object of classB
+		objectB.displayB(); //calling object of classB
+
 	}//end of main
 } //end of packageTest1
+
+
+
+//---------------Compiling and Run Process------------------
+
+/*
+
+Compile classA and ClassB
+
+D:\PH> javac -d . classA.java
+D:\PH> javac -d . classB.java
+
+package1 will be created
+The class files of classA and classB will be inside package1
+
+D:\PH> javac TestPackage.java
+
+Running:
+
+java TestPackage
+
+*/
