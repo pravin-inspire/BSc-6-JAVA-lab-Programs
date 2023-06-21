@@ -3,6 +3,9 @@
 //Date:
 
 import java.io.*;
+
+//Constructor: class_name is same as method_name
+
 class addition
 {
 	double a,b;
