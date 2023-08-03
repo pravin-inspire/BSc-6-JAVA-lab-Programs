@@ -1,4 +1,4 @@
-//Program 8: Display Geometrical Figures using objects.
+//Program 9: Display Geometrical Figures using objects.
 //Author: 
 //Date:
 

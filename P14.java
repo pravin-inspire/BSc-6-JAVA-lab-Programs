@@ -1,45 +1,42 @@
+
+
 //Program 14: Implement Digital Clock
 //Author:
-//Date
+//Date:
 
-import java.awt.*;
-import java.applet.*;
-import java.util.*;// for calendar utility
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Font;
+import java.util.*;
+import java.time.LocalTime; //works JDK 8 onwards
 
-public class P14 extends Applet implements Runnable 
-{ 
-   Thread t;
-   public void start() //thread start
-   {
-       t = new Thread(this);
-       t.start();
-   }//end of start
+public class P14 extends Applet
+{
+	public void paint(Graphics G)
+	{
+		
+		G.setFont(new Font("Arial",Font.BOLD,40));
+		
+		
+		LocalTime myObj = LocalTime.now(); // Create a time object
+		
+		G.drawString(myObj.toString(),50,50); //convert time object to string
+		
+		try
+		{
+			Thread t = new Thread(); //t is object of class Thread()
+			t.sleep(100);
+			repaint(); //repaint every 100 millisecs
+		}
+		catch(InterruptedException e)
+		{
+		}
+	}
+}
 
-   public void run() //thread run
-   { 
-       while(true) 
-       {
-           repaint();
-           try 
-           {
-               t.sleep(1000); 
-           }
-           catch(InterruptedException e)
-           {
+/*<applet code="P14" width="500" height="500"></applet>*/
 
-           }
-       }
-   }//end of run
-   
-   public void paint(Graphics g) 
-   {
-       Calendar cal = new GregorianCalendar();
-       String hour = String.valueOf(cal.get(Calendar.HOUR));
-       String minute = String.valueOf(cal.get(Calendar.MINUTE));
-       String second = String.valueOf(cal.get(Calendar.SECOND));
-       g.drawString(hour + ":" + minute + ":" + second, 20, 30);
-   }//end of paint
 
-}//end of P14
 
-/* <applet code="P14" width=200 height=200></applet> */
+

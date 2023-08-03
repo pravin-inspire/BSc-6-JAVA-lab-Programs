@@ -5,6 +5,7 @@
 import java.applet.Applet;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Font;
 import java.util.Random;
 
 public class P13 extends Applet
@@ -17,6 +18,7 @@ public class P13 extends Applet
 		int b = rand.nextInt(255);
 		Color clr =new Color(r,g,b);
 		setForeground(clr);
+		G.setFont(new Font("Arial",Font.BOLD,40));
 		G.drawString("Hello World!", 50,50);
 		
 		try

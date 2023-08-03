@@ -9,7 +9,7 @@ public class classA
 {
 	public void displayA()
 	{
-		System.out.println("You are in classA of package1")
+		System.out.println("You are in classA of package1");
 	}
 }//end of classA
 
@@ -22,13 +22,12 @@ public class classB
 {
 	public void displayB()
 	{
-		System.out.println("You are in classB of package1")
+		System.out.println("You are in classB of package1");
 	}
 }//end of classB
 
 
 //-------------------------------TestPackage.java---------------------------------------
-
 
 import package1.classA; //importing classA of package1
 import package1.classB; //importing classB of package1

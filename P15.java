@@ -1,4 +1,4 @@
-//Program 15: Implement Digital Clock.
+//Program 15: Implement Mouse Click.
 //Author
 //Date
 

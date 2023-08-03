@@ -21,6 +21,12 @@ class Prime
 		while(low<high)
 		{
 			flag=0;
+			if(low<=1) //exclude 1 as it not prime
+			{
+				++low;
+				continue;
+			}
+
 			for(i=2;i<=low/2;++i)
 			{
 				if(low%i==0)
